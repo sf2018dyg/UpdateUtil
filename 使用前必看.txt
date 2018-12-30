@@ -1,0 +1,4 @@
+1.使用方式：将本项目当成模块（比如取名：updateutil）导入其它项目中
+2.使用时需要做如下几件事：
+（1）需将updateutil模块的清单文件的 com.dingyg.updateutil.myfileprovider 改为其它名称，以免在多个项目同时导用此项目出现异常而导致项目无法编译；
+（2）需将资源文件中的file_provider.xml的内容进行修改，name="你的app名称"。
